@@ -10,6 +10,7 @@
     "website": "https://github.com/OCA/manufacture-reporting",
     "license": "AGPL-3",
     "depends": ["report_xlsx", "mrp"],
-    "data": ["report/bom_structure_xlsx.xml"],
     "installable": True,
+    "application": False,
+    "auto_install": False,
 }
